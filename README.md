@@ -22,7 +22,7 @@
 9. [Questions](#contact-information)
 
 ## Description
-The Note Taker can be used to write and save notes. This application will use HTML, CSS, and JavaScript front end to layout the website outlook and will use an Express.js back end to save, retrieve and delete note from a JSON file. The application is deployed to [heroku](https://shelldan-note-taker.herokuapp.com/) as well. 
+The Note Taker can be used to write and save notes. This application will use HTML, CSS, and JavaScript front end to layout the application and will use an Express.js back end to save, retrieve and delete note from a JSON file. The application is deployed to [heroku](https://shelldan-note-taker.herokuapp.com/) as well. 
 
 
 ## User Story
