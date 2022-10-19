@@ -4,7 +4,6 @@ let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
-//window.location.pathname property returns tha pathname of the current page. 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
