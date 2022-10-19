@@ -6,8 +6,7 @@ const api = require('./routes/api.js')
 
 
 //process.env.PORT for heroku
-//TODO: change back to 3001 after testing
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 
 //running/starting express
@@ -15,14 +14,12 @@ const PORT = process.env.PORT || 3002;
 //one application listens on one port 
 const app = express();
 
-
-
 // Middleware for parsing JSON and urlencoded form data
 // app.use for middleware
 // express.json() handle all incoming requests and see if there is JSON and converting to object. 
 app.use(express.json()); //express = message sending application, we need something connect to html and database
 app.use(express.urlencoded({ extended: true}))// old way working with url
-app.use('/api', api); //root = '/api'
+app.use('/api', api); //root = '/api' 
 
 
 // app.use(express.static()) adds a middleware for serving static files to your Express app. (set the static path)
