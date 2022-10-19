@@ -22,7 +22,7 @@
 9. [Questions](#contact-information)
 
 ## Description
-The Note Taker can be used to write and save notes. This application will use HTML, CSS, and JavaScript front end to layout the website outlook and will use an Express.js back end to save, retrieve and delete note from a JSON file. The application is deployed to heroku as well. 
+The Note Taker can be used to write and save notes. This application will use HTML, CSS, and JavaScript front end to layout the website outlook and will use an Express.js back end to save, retrieve and delete note from a JSON file. The application is deployed to [heroku](https://shelldan-note-taker.herokuapp.com/) as well. 
 
 
 ## User Story
@@ -51,9 +51,9 @@ git clone https://github.com/shelldan/node-taker.git
 ``` 
 Run 'npm install' to install dependencies
 
-Run 'npm run start' to run program
+Run 'npm run develop' to start the program
 
-Open the 'team.html' file from the output folder in a web browser to view
+App listening at http://localhost:3001 
 
 ---
 
@@ -74,18 +74,15 @@ Following a code review, your feature will be merged.
 ---
 
 ## Test:
-There are also unit tests to help you build the classes necessary.
-
 It is recommended that you follow this workflow:
 
-1. Run tests
-2. Create or update classes to pass a single test case
-3. Repeat
-
-🎗 Remember, you can run the tests at any time with:
-
-
-    npm run test
+1. When you open the Note Taker, then you should be presented with a landing page with a link to a notes page
+2. When you click on the link to the notes page, you should be presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note's text in the right-hand column
+3. When you enter a new note title and the note's text, then a Save icon appears in the navigation at the top of the page
+4. When you click on the Save icon, then the new note you have entered is saved and appears in the left-hand column with the other existing notes
+5. When you click on an existing note in the list in the left-hand column, then that note appears in the right-hand column
+6. When you click on the Write icon in the navigation at top of the page, then you should be presented with empty fields to enter a new note title and the note's text in the right hand column.
+7. When you click on the Delete icon, then the note you have deleted is removed from the left-hand column
 
 ---
 
